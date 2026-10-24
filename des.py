@@ -30,7 +30,7 @@ final_permutation = [40, 8, 48, 16, 56, 24, 64, 32,
                      33, 1, 41, 9, 49, 17, 57, 25]
 
 # Recall that dictionaries are fast, we use them to define our s_boxes
-# note that these boxes are gotten from our textbook and DES documentation
+# note that these boxes were gotten from our textbook and DES documentation
 SBox = {0: [[14, 4, 13, 1, 2, 15, 11, 8, 3, 10, 6, 12, 5, 9, 0, 7],
             [0, 15, 7, 4, 14, 2, 13, 1, 10, 6, 12, 11, 9, 5, 3, 8],
             [4, 1, 14, 8, 13, 6, 2, 11, 15, 12, 9, 7, 3, 10, 5, 0],
